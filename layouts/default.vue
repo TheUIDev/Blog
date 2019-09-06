@@ -62,11 +62,11 @@ export default {
       fixed: false,
       icons: [
         {
-          class: 'fab fa-twitter',
+          class: 'mdi-twitter',
           link: 'https://twitter.com/shreerangp/'
         },
         {
-          class: 'fab fa-linkedin',
+          class: 'mdi-linkedin',
           link: 'https://www.linkedin.com/in/shreerangp/'
         }
       ],
@@ -80,6 +80,21 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Blog',
           to: '/blog'
+        },
+        {
+          icon: 'mdi-language-javascript',
+          title: 'ES6 Series',
+          to: '/es6-101-series'
+        },
+        {
+          icon: 'mdi-google-maps',
+          title: 'Google Maps Series',
+          to: '/google-maps-series'
+        },
+        {
+          icon: 'mdi-cellphone-link',
+          title: 'jQuery Mobile Series',
+          to: '/jquery-mobile-series'
         }
       ],
       miniVariant: false,

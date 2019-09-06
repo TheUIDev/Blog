@@ -1,22 +1,10 @@
-# new_goal
+# The UI Dev
 
-> New_Goal
+## Description
+This is my personal blog currently being migrated from Blogger to Github Pages.
+You might know this blog as `Spatial Unlimited` from blogger or `The UI Dev` from my previous Jekyll based Github Pages blog.
 
-## Build Setup
+It made a lot of sense to name my blog `Spatial Unlimited` when I started writing and then eventually migrating it to `The UI Dev` which aligns well with what I have been working on lately - Frontend.
 
-``` bash
-# install dependencies
-$ npm run install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Issues
+Feel free to log bugs or submit a PR for any issues you find on the blog.
