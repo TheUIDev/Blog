@@ -4,7 +4,13 @@
       <h2 id="descriptionjquerymobileseries">jQuery Mobile Series</h2>
 
       <p>
-        <img src="/blog/jquery-mobile.png" alt="jQuery Mobile" /><br />
+        <v-img
+          src="/blog/jquery-mobile.png"
+          alt="jQuery Mobile"
+          max-width="500"
+          max-height="300"
+        ></v-img
+        ><br />
         Following is a list of articles part of the jQuery Mobile series.
       </p>
 

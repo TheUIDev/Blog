@@ -3,7 +3,13 @@
     <v-flex xs12 sm8 md6>
       <h1>Google Maps Javascript API Series</h1>
       <p class="has-line-data" data-line-start="8" data-line-end="10">
-        <img src="/blog/google-maps.jpg" alt="Google Maps" /><br />
+        <v-img
+          src="/blog/google-maps.jpg"
+          alt="Google Maps"
+          max-width="500"
+          max-height="300"
+        ></v-img
+        ><br />
         Following is a list of articles part of the Google Maps Javascript API
         series.
       </p>

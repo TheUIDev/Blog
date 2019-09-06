@@ -2,7 +2,13 @@
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
       <h1>
-        <img src="/blog/ES6.jpg" alt="ES6" /><br />
+        <v-img
+          src="/blog/ES6.jpg"
+          alt="ES6"
+          max-width="500"
+          max-height="300"
+        ></v-img
+        ><br />
         ES6 Features with code samples
       </h1>
       <p>
@@ -14,50 +20,81 @@
       </p>
       <ol style="list-style-type: decimal">
         <li>
-          <a href="https://theuidev.github.io/es6-fat-arrow-functions/"
-            >Fat Arrow Functions</a
+          <a
+            href="https://theuidev.github.io/blog/2017/10/10/es6-fat-arrow-functions/"
           >
-        </li>
-        <li>
-          <a href="https://theuidev.github.io/es6-101-lexical-declarations-let/"
-            >Lexical Declarations - Let</a
-          >
+            Fat Arrow Functions
+          </a>
         </li>
         <li>
           <a
-            href="https://theuidev.github.io/es6-101-lexical-declarations-const/"
-            >Lexical Declarations - Const</a
+            href="https://theuidev.github.io/blog/2017/10/10/es6-101-lexical-declarations-let/"
           >
+            Lexical Declarations - Let
+          </a>
         </li>
         <li>
-          <a href="https://theuidev.github.io/es6-101-spread-operator/"
-            >Spread Operator</a
+          <a
+            href="https://theuidev.github.io/blog/2017/10/11/es6-101-lexical-declarations-const/"
           >
+            Lexical Declarations - Const
+          </a>
         </li>
         <li>
-          <a href="https://theuidev.github.io/es6-template-literals/"
-            >Template Literal</a
+          <a
+            href="https://theuidev.github.io/blog/2017/10/11/es6-101-spread-operator/"
           >
+            Spread Operator
+          </a>
         </li>
         <li>
-          <a href="https://theuidev.github.io/es6-rest-operator/"
-            >Rest Operator</a
+          <a
+            href="https://theuidev.github.io/blog/2017/10/12/es6-template-literals/"
           >
+            Template Literal
+          </a>
         </li>
         <li>
-          <a href="https://theuidev.github.io/es6-101-default-parameters/"
-            >Default parameters</a
+          <a
+            href="https://theuidev.github.io/blog/2017/10/12/es6-rest-operator/"
           >
+            Rest Operator
+          </a>
         </li>
         <li>
-          <a href="https://theuidev.github.io/es6-101-destructuring/"
-            >Destructuring</a
+          <a
+            href="https://theuidev.github.io/blog/2017/10/17/es6-101-default-parameters/"
           >
+            Default parameters
+          </a>
         </li>
-        <li><a href="https://theuidev.github.io/es6-101-forof/">For..of</a></li>
-        <li><a href="https://theuidev.github.io/es6-101-set/">Set</a></li>
-        <li><a href="https://theuidev.github.io/es6-101-map/">Map</a></li>
-        <li><a href="https://theuidev.github.io/es6-101-class/">Classes</a></li>
+        <li>
+          <a
+            href="https://theuidev.github.io/blog/2017/10/17/es6-101-destructuring/"
+          >
+            Destructuring
+          </a>
+        </li>
+        <li>
+          <a href="https://theuidev.github.io/blog/2017/10/17/es6-101-forof/">
+            For..of
+          </a>
+        </li>
+        <li>
+          <a href="https://theuidev.github.io/blog/2017/10/18/es6-101-set/">
+            Set
+          </a>
+        </li>
+        <li>
+          <a href="https://theuidev.github.io/blog/2017/10/18/es6-101-map/">
+            Map
+          </a>
+        </li>
+        <li>
+          <a href="https://theuidev.github.io/blog/2017/10/26/es6-101-class/">
+            Classes
+          </a>
+        </li>
       </ol>
     </v-flex>
   </v-layout>
