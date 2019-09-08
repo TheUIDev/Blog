@@ -19,17 +19,17 @@
               <v-chip
                 v-for="(tag, tid) in blogpost.tags"
                 :key="tid"
-                color="success"
+                color="warning"
                 outlined
               >
                 {{ tag }}
               </v-chip>
             </v-card-text>
-            <v-card-actions>
+            <v-card-text>
               <v-btn flat="raised" color="primary" @click="goTo(blogpost.href)"
                 >Read more</v-btn
               >
-            </v-card-actions>
+            </v-card-text>
           </v-card>
           <v-spacer :key="`space-${idx}`"></v-spacer>
         </v-flex>

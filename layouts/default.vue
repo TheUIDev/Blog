@@ -1,6 +1,7 @@
 <template>
   <v-app dark>
     <v-navigation-drawer
+      dark
       v-model="drawer"
       :mini-variant="miniVariant"
       :clipped="clipped"
@@ -35,7 +36,7 @@
     </v-content>
     <v-footer dark padless>
       <v-card class="flex" flat tile>
-        <v-card-title class="teal">
+        <v-card-title class="light-blue">
           <div class="flex-grow-1"></div>
           <v-btn v-for="icon in icons" :key="icon" class="mx-4" dark icon>
             <a :href="icon.link" class="social-links" target="_blank">
