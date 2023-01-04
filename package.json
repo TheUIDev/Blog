@@ -34,7 +34,7 @@
     "cross-env": "^5.2.0",
     "express": "^4.16.4",
     "markdown-to-json": "^0.5.1",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "vue-infinite-loading": "^2.4.4",
     "vue-social-sharing": "^2.4.6"
   },
